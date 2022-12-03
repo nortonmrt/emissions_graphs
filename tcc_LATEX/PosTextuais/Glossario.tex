@@ -1,0 +1,37 @@
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+
+%Consulte o manual da classe abntex2 para orientações sobre o glossário.
+
+%\glossary
+
+
+
+
+% ----------------------------------------------------------
+% Glossário (Formatado Manualmente)
+% ----------------------------------------------------------
+
+\chapter*{CONCLUSÃO}
+
+%{ \setlength{\parindent}{0pt} % ambiente sem indentação
+No presente trabalho um protótipo de queimador de pellets de madeira foi o objeto de estudo, buscando-se sua caracterização do ponto de vista qualitativo e quantitativo. Na revisão bibliográfica, foram analisados reatores com princípio de funcionamento semelhante ao do protótipo, e na etapa de metodologia experimental foi caracterizada a bancada experimental do projeto.
+
+As principais conclusões obtidas no presente estudo são listadas abaixo.
+
+\begin{itemize}
+    \item O protótipo original fornecido pela empresa operava em potências muito elevadas, inviabilizando os primeiros testes, devido à potência do ventilador. Para estudos futuros, é necessária a implementação de um controlador de potência do ventilador, para um controle mais preciso do ar fornecido ao processo, e consequentemente da potência em que o queimador opera. 
+    \item Para as razões de equivalência testadas, a altura da chama é inversamente proporcional à potência do queimador, devido à fluidodinâmica proporcionada pela geometria do queimador. Além disso, a chama tende a ser assimétrica em relação ao diâmetro do queimador para potências mais baixas, o que pode indicar uma influência da posição da alimentação nas variáveis analisadas.
+    \item O regime permanente é caracterizado por um perfil de temperatura oscilatório, em torno de uma temperatura média constante. Quanto mais curtos os intervalos entre as alimentações de combustível, menor é a amplitude das oscilações.
+    \item A emissão de poluentes é bastante relacionada ao perfil de temperatura, o que pode ser observado principalmente na Figura \ref{fig:emissoespot3}. Ainda, a concentração de cada poluente na mistura é função da concentração das demais espécies químicas.
+    \item As emissões de monóxido de carbono medidas encontram-se dentro das especificações requeridas pelo CONAMA, para as potências estudadas.
+\end{itemize}
+
+
+O estudo aqui apresentado permite o planejamento de diversos outros ensaios para uma caracterização mais aprofundada do queimador. Dentre eles é possível citar: a determinação quantitativa da influência do intervalo de alimentação $TL$ na emissão de poluentes e no perfil da temperatura; verificação do perfil de temperatura desenvolvido ao longo da chaminé, e dentro do próprio reator, que fornece informações sobre a cinética química desenvolvida no equipamento; o estudo da influência da posição da alimentação do combustível na chama desenvolvida e nos poluentes emitidos; a implementação da análise elementar dos pellets da Koala no código do EES, visando obter condições mais fidedignas à realidade; e por fim a análise da produção de fuligem e existência de incrustações nas paredes do queimador.
+
+
+%}
+
+
